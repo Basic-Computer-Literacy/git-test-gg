@@ -1,0 +1,33 @@
+git 아이디, 이메일 설정
+>git config --global user.name iyeohan
+>git config --global user.email leejisoo338@gmail.com
+
+폴더("git-test") 만들기
+>mkdir test
+
+만든 폴더("git-test")로 경로 옮기기
+>cd git-test
+
+저장소 만들기
+>git init
+
+파일(.txt) 만들기
+>notepade
+
+----- 파일 이름 정하고 폴더("git-test")에 저장
+LLL.txt ----- 파일 이름
+
+깃에 파일 올리기
+>git add .  ----- 파일에 있는 모든 파일.
+>git add LLL.txt ----- LLL 이라는 파일만.
+
+커밋하기
+>git commit -m "message" ----- "message" 부분은 로그.
+
+첫 push일 경우 
+git push -u https://github.com/iyeohan/resume_challenge.git master
+
+branch master or main 둘 중 한 곳에 푸쉬하기
+git branch -M main
+git branch -M master
+
